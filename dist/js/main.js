@@ -42,7 +42,7 @@ function speak() {
 
     if (textInput.value !== '') {
 
-        img.src = 'http://clipground.com/images/equaliser-clipart-14.jpg';
+        img.src = 'img/equaliser-clipart.gif';
         img.style.width = '150px';
         img.style.height = '100px';
 
