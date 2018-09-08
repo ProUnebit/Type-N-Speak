@@ -2,6 +2,12 @@
   "name": "speech-synthesis-app",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files  'dist/css/*.css, dist/*.html, dist/js/*.js, dist/img/*.png, dist/img/*.jpg' --directory --port 7777 --index 'dist/index.html'"
+  },
   "author": "ProUnebit <ProUnebit@yandex.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  }
 }
