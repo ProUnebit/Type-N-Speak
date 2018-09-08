@@ -7,7 +7,7 @@
 **Instruction:** You'll need to write any text, choose a voice and press '**Speak It**'
 
 
-![](http://clipground.com/images/equaliser-clipart-14.jpg)
+![](dist/img/equaliser-clipart.gif)
 
 - - -
 Mail for communication: <ProUnebit@yandex.ru>
