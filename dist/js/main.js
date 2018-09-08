@@ -8,6 +8,7 @@ const rateValue = document.querySelector('#rate-value');
 const pitch = document.querySelector('#pitch');
 const pitchValue = document.querySelector('#pitch-value');
 const body = document.querySelector('body');
+const img = document.querySelector('.main-img');
 
 let voices = [];
 
@@ -40,10 +41,18 @@ function speak() {
     }
 
     if (textInput.value !== '') {
+
+        img.src = 'http://clipground.com/images/equaliser-clipart-14.jpg';
+        img.style.width = '150px';
+        img.style.height = '100px';
+
         const speakText = new SpeechSynthesisUtterance(textInput.value);
 
         speakText.onend = e => {
             console.log('Done speaking...')
+            img.src = 'img/speech-1.png';
+            img.style.width = '';
+            img.style.height = '';
         }
 
         speakText.onerror = e => {
