@@ -1,0 +1,7 @@
+{
+  "name": "speech-synthesis-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ProUnebit <ProUnebit@yandex.ru>",
+  "license": "MIT"
+}
