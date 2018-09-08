@@ -1,6 +1,6 @@
 ## Type-N-Speak
 
-**Link:** [https://countdown-champ.now.sh](https://countdown-champ.now.sh)
+**Link:** [https://type-n-speak.netlify.com](https://type-n-speak.netlify.com)
 
 **About:** Text synthesis application, API: [Web Speach](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
