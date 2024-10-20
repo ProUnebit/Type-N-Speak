@@ -1,6 +1,6 @@
 ## Type-N-Speak
 
-**Link:** [https://type-n-speak.netlify.com](https://type-n-speak.netlify.com)
+**Link:** [https://type-n-speak.netlify.com](https://type-n-speak.netlify.app)
 
 **About:** Text synthesis application, API: [Web Speach](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
